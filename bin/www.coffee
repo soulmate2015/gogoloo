@@ -66,7 +66,7 @@ onListening = () ->
     Get port from environment and store in Express.
 ###
 
-port = normalizePort process.env.PORT || '8808'
+port = normalizePort process.env.PORT || '80'
 app.set 'port', port
 
 
