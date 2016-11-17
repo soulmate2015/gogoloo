@@ -7,12 +7,31 @@
   },
   "dependencies": {
     "body-parser": "~1.15.1",
+    "cjsx-loader": "^3.0.0",
+    "coffee-loader": "^0.7.2",
+    "coffee-react-transform": "^5.0.0",
     "coffee-script": "^1.11.1",
     "cookie-parser": "~1.4.3",
+    "css-loader": "^0.25.0",
     "debug": "~2.2.0",
+    "del": "^2.2.2",
     "express": "~4.13.4",
+    "gulp": "^3.9.1",
+    "gulp-coffee": "^2.3.2",
+    "gulp-nodemon": "^2.2.1",
+    "gulp-uglify": "^2.0.0",
+    "gulp-uglifycss": "^1.0.6",
+    "gulp-util": "^3.0.7",
     "jade": "~1.11.0",
+    "lodash": "^4.16.5",
     "morgan": "~1.7.0",
-    "serve-favicon": "~2.3.0"
+    "react": "^15.3.2",
+    "react-bootstrap": "^0.30.6",
+    "react-dom": "^15.3.2",
+    "react-hot-loader": "^3.0.0-beta.6",
+    "react-router": "^3.0.0",
+    "run-sequence": "^1.2.2",
+    "serve-favicon": "~2.3.0",
+    "webpack": "^1.13.3"
   }
 }

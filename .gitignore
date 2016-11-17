@@ -19,6 +19,7 @@
 
 node_modules
 bin/www.coffee
+public/bin/*
 
 .idea/
 *.iml
