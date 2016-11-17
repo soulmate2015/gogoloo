@@ -5,26 +5,28 @@ logger = require 'morgan'
 cookieParser = require 'cookie-parser'
 bodyParser = require 'body-parser'
 
-routes = require './routes/index'
+routes = require './service/routes/index.coffee'
 
 app = express()
 
-#view engine setup
-app.set 'views', path.join(__dirname, 'views')
+#视图模版配置
+app.set 'views', path.join(__dirname, 'public/views')
 app.set 'view engine', 'jade'
 
 #uncomment after placing your favicon in /public
-#app.use(favicon(path.join(__dirname, 'public', 'favicon.ico')));
+app.use favicon(path.join(__dirname, 'public', '/assets/img/favicon.ico'))
 app.use logger('dev')
 app.use bodyParser.json()
 app.use bodyParser.urlencoded({ extended: false })
 app.use cookieParser()
+
+#静态文件配置
 app.use express.static(path.join(__dirname, 'public'))
 
 #路由
 app.use '/', routes
 
-#catch 404 and forward to error handler
+#404错误捕获
 app.use (req, res, next) ->
     err = new Error 'Not Found'
     err.status = 404

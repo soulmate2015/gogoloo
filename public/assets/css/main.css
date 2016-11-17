@@ -1,0 +1,102 @@
+body {
+    font-size: 16px;
+    font-family: "Microsoft Yahei", Arial, "STHeiti", sans-serif;
+    font-weight: 300; }
+
+h1 {
+    font-family: "Microsoft Yahei", Arial, "STHeiti", sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 4.25em; }
+
+h2 {
+    font-family: "Microsoft Yahei", Arial, "STHeiti", sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    color: #4e4e4e;
+    font-size: 2.25em;
+    margin-bottom: 20px; }
+
+h3 {
+    font-family: "Microsoft Yahei", Arial, "STHeiti", sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 1.5em; }
+
+h4 {
+    font-family: "Microsoft Yahei", Arial, "STHeiti", sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    color: #E57D69;
+    font-size: 1.5em; }
+
+h5 {
+    font-family: "Microsoft Yahei", Arial, "STHeiti", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1em; }
+
+p {
+    font-size: 1em;
+    color: #888888;
+    font-family: "Microsoft Yahei", Arial, "STHeiti", sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 1.5em; }
+
+.lead {
+    font-size: 1.125em;
+    opacity: 0.6;
+    margin-top: 1.25em;
+    line-height: 1.75em;
+    font-family: "Microsoft Yahei", Arial, "STHeiti", sans-serif;
+    font-style: normal;
+    font-weight: 100; }
+
+small {
+    display: block;
+    margin-bottom: 6px; }
+
+strong {
+    font-family: "Microsoft Yahei", Arial, "STHeiti", sans-serif;
+    font-style: normal;
+    font-weight: 500; }
+
+.navbar-static-top {
+    background: inherit;
+    height: 56px; }
+
+.nav > li a {
+    margin: 0 20px;
+    color: #4e4e4e;
+    padding: 20px 0 10px 0;
+    font-family: "Microsoft Yahei", Arial, "STHeiti", sans-serif;
+    font-style: normal;
+    /*样式字体不支持字体加粗*/
+    font-weight: 500; }
+
+.nav > li > a:hover {
+    border-bottom: 4px solid #E57D69;
+    background-color: inherit; }
+
+.navbar {
+    margin: 0;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.4); }
+
+.main-headline {
+    text-align: center;
+    max-width: 620px;
+    margin: 50px auto; }
+
+.header {
+    height: 600px;
+    padding-top: 56px; }
+
+.header-bg-alt {
+    background-image: url("../img/city-fg-day.svg"), url("../img/city-bg-day.svg"), linear-gradient(-180deg, #F8F8EC 0%, #E2F6F9 100%);
+    background-size: 1200px 600px;
+    background-repeat: no-repeat, no-repeat, repeat;
+    color: #4e4e4e;
+    background-position: center;
+    height: 600px;
+}

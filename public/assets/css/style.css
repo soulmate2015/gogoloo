@@ -6,3 +6,8 @@ body {
 a {
   color: #00B7FF;
 }
+
+
+.nav > li > a:hover {
+    border-bottom: 4px solid #E57D69;
+    background-color: inherit; }
